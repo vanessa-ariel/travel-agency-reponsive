@@ -13,7 +13,7 @@ body{
     padding: 25px;
 }
 
-.container{
+.container{     /*THE CONTEINER ALIGNS THE ITENS TO THE CENTER*/
     width: 92%;
     align-items: center;
 }
@@ -26,6 +26,66 @@ body{
 .nav__menu-item{
     margin-left: 10px;
     text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+/* BANNER SECTION */
+.banner{
+	background-image:url(../img/foto-banner.jpg);
+	background-size:cover;
+	height: 700px;
+}
+.centralized{
+	text-align: center;
+	
+	
+}
+.banner__h1{
+	color: #fff;
+	font-size: 100px;
+	text-transform: uppercase;
+	/*padding: 50px 0;  Why if add margin-top there is a gap between the nav and the background image? */
+}
+.banner__text{
+	margin: 50px;
+}
+
+.banner__btn{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase; 
+	padding: 10px;
+	background-color: #a0bed0;
+	border-radius: 5px;
+}
+.banner__h1{
+	margin-bottom: 10px;
+}
+
+.banner__img{
+	background-size: cover;
+	width: 1500px;
+}
+
+/* ABOUT SECTION */
+
+
+.about{
+	text-align: center;
+	background-color: #696969;
+	padding: 50px 0;
+}
+
+h2{
+	color: #fff;
+	/*padding: 50px 0 25px;*/
+	font-weight: 200;
+}
+.about__p{
+	font-size: 15px;
 }
 
 
@@ -39,6 +99,10 @@ body{
     .menu-hamburguer{
         width:30px;
     }
+	.banner__h1{
+		font-size: 50px;
+		padding-top: 100px;
+	}
 }
 
 @media(min-width:421px){
@@ -46,5 +110,3 @@ body{
         display:none;
     }
 }
-
-/* HEADER */
