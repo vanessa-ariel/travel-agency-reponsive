@@ -14,7 +14,7 @@ body{
 }
 
 .container{     /*THE CONTEINER ALIGNS THE ITENS TO THE CENTER*/
-    width: 92%;
+    width: 90s%;
     align-items: center;
 }
 .nav__menu{
@@ -40,8 +40,6 @@ body{
 }
 .centralized{
 	text-align: center;
-	
-	
 }
 .banner__h1{
 	color: #fff;
@@ -88,6 +86,20 @@ h2{
 	font-size: 15px;
 }
 
+/* DESTINATION SECTION */
+
+.siberia__img{
+	width:60%;
+	display: inline;
+	margin: 50px 100px 0;
+}
+
+.siberia__info{
+	display: inline;
+	max-width: 30%;
+	text-align: left;
+	
+}
 
 @media(max-width:420px){
     .nav{
