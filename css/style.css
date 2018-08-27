@@ -77,7 +77,7 @@ body{
 	padding: 50px 0;
 }
 
-h2{
+.about__heading{
 	color: #fff;
 	/*padding: 50px 0 25px;*/
 	font-weight: 200;
@@ -88,17 +88,24 @@ h2{
 
 /* DESTINATION SECTION */
 
+.siberia{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
 .siberia__img{
 	width:60%;
-	display: inline;
-	margin: 50px 100px 0;
+	max-height: 500px; /* HOW TO AVOID IMAGEM FROM STRETCHING?*/
+	max-width: 600px;
+	margin: 50px 30px 100px 30px;
 }
 
 .siberia__info{
-	display: inline;
-	max-width: 30%;
-	text-align: left;
-	
+	max-width: 30%;	
+}
+.siberia-h2{
+	color: black;
 }
 
 @media(max-width:420px){
